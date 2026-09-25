@@ -10,6 +10,7 @@ RUN apk update && apk upgrade &&\
     apk add --no-cache openssl curl gcompat iproute2 coreutils &&\
     apk add --no-cache bash &&\
     chmod +x index.js &&\
-    npm install
+    npm install &&\
+    mkdir -p .tmp && chmod -R 777 /app
 
 CMD ["node", "index.js"]

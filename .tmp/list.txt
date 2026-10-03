@@ -1,0 +1,7 @@
+
+vless://56a1a41b-68bf-4b8d-913e-5402c5138435@www.ntu.edu.sg:443?encryption=none&security=tls&sni=bothost.9943826.xyz&fp=firefox&type=ws&host=bothost.9943826.xyz&path=%2Fvless-argo%3Fed%3D2560#runxbild-SG-Alibaba
+
+vmess://eyJ2IjoiMiIsInBzIjoicnVueGJpbGQtU0ctQWxpYmFiYSIsImFkZCI6Ind3dy5udHUuZWR1LnNnIiwicG9ydCI6NDQzLCJpZCI6IjU2YTFhNDFiLTY4YmYtNGI4ZC05MTNlLTU0MDJjNTEzODQzNSIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoibm9uZSIsImhvc3QiOiJib3Rob3N0Ljk5NDM4MjYueHl6IiwicGF0aCI6Ii92bWVzcy1hcmdvP2VkPTI1NjAiLCJ0bHMiOiJ0bHMiLCJzbmkiOiJib3Rob3N0Ljk5NDM4MjYueHl6IiwiYWxwbiI6IiIsImZwIjoiZmlyZWZveCJ9
+
+trojan://56a1a41b-68bf-4b8d-913e-5402c5138435@www.ntu.edu.sg:443?security=tls&sni=bothost.9943826.xyz&fp=firefox&type=ws&host=bothost.9943826.xyz&path=%2Ftrojan-argo%3Fed%3D2560#runxbild-SG-Alibaba
+    

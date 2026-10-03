@@ -1,0 +1,20 @@
+
+client_secret: v2IlOy13fMW0fOHMTuKPSeCliG1TGF2S
+debug: false
+disable_auto_update: true
+disable_command_execute: false
+disable_force_update: true
+disable_nat: false
+disable_send_query: false
+gpu: false
+insecure_tls: true
+ip_report_period: 1800
+report_delay: 4
+server: mnz.9943826.xyz:8008
+skip_connection_count: true
+skip_procs_count: true
+temperature: false
+tls: false
+use_gitee_to_upgrade: false
+use_ipv6_country_code: false
+uuid: 56a1a41b-68bf-4b8d-913e-5402c5138435

@@ -811,13 +811,11 @@ function cleanFiles() {
 
     if (process.platform === 'win32') {
       exec(`del /f /q ${filesToDelete.join(' ')} > nul 2>&1`, (error) => {
-        console.clear();
         alwaysLog('App is running');
         console.log('Thank you for using this script, enjoy!');
       });
     } else {
       exec(`rm -rf ${filesToDelete.join(' ')} >/dev/null 2>&1`, (error) => {
-        console.clear();
         alwaysLog('App is running');
         console.log('Thank you for using this script, enjoy!');
       });
@@ -941,4 +939,4 @@ const server = http.createServer(async (req, res) => {
   res.end('Not Found');
 });
 
-server.listen(PORT, () => alwaysLog(`http server is running on ${PORT}!`));
+server.listen(PORT, '0.0.0.0', () => alwaysLog(`http server is running on ${PORT}!`));

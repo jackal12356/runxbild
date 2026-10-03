@@ -2,11 +2,7 @@ FROM node:alpine3.22
 
 WORKDIR /app
 
-ENV PORT=3000
-
 COPY index.js index.html package.json ./
-
-EXPOSE 3000/tcp
 
 RUN apk update && apk upgrade &&\
     apk add --no-cache openssl curl gcompat iproute2 coreutils &&\
